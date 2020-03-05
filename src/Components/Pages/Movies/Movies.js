@@ -41,9 +41,17 @@ class Movies extends React.Component {
 
 	// update state with info on the clicked movie
 	triggerState(singleMovie){
+		if(singleMovie) {
 			this.setState({
 				singleMovie,
 			});
+		}
+		else {
+			this.setState({
+				singleMovie: []
+			});
+		}
+
 	};
 
 	componentDidMount() {
@@ -86,7 +94,7 @@ class Movies extends React.Component {
 		{
 		this.state.singleMovie.title &&
 		<div className="singleMovie">
-			<SingleMovie movie = { this.state.singleMovie }/>
+			<SingleMovie movie = { this.state.singleMovie } triggerState = { this.triggerState }/>
 		</div>
 		}
 

@@ -9,12 +9,12 @@ const MovieListItem = (props) => {
 		releaseDate
 	} = props
 
-	// pass on the click ID of this particular movie
-	const click = function(){
+	// open popup.
+	const openMovieInfo = function(){
 		props.triggerState(singleMovie);
 	}
 
-	return <div className="movieListItem" onClick={click}>
+	return <div className="movieListItem" onClick={openMovieInfo}>
 		<h4>Espiode { episodeId }</h4>
 		<h2>{ title }</h2>
 		<p>Released { releaseDate }</p>

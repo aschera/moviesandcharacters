@@ -3,6 +3,11 @@ import React from 'react'
 const SingleMovie = (props) => {
 	const { movie } = props
 
+	// pass on the click ID of this particular movie
+	const triggerState = function(){
+		props.triggerState();
+	}
+
 	return <div className="singleMovie">
 
 		<h1>Single Movie</h1>
@@ -13,7 +18,7 @@ const SingleMovie = (props) => {
 
 		<p>{ movie.opening_crawl }</p>
 
-		<button>Back</button>
+		<button onClick={triggerState}>Back</button>
 	</div>
 }
 

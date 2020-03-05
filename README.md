@@ -41,8 +41,10 @@ Some of these components hold a hardcoded data object that they render into view
 5. When a user clicks on a movie item in **Pages/Movie**, switch to the **SingleMovie** page, and make it display data for the clicked movie.
 - stored data on clicked card and passed on to single movie
 - made component for single movie popup and populated. css styled it a bit.
+- TODO: make return button close the popup.
 
 6. The Characters page should be empty to start with, and only get characters added as the user clicks into the different movies. It should only display characters belonging in movies that the user has clicked into. How you populate the Characters page is up to you.
+-
 
 ##	Bonus task
 
