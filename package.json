@@ -23,7 +23,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/stampen/react_coding_test#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "node-fetch": "^2.6.0",
     "node-sass": "^4.13.1",
     "react": "^16.12.0",
