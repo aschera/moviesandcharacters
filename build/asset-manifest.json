@@ -1,23 +1,6 @@
 {
-  "files": {
-    "main.css": "/stampen/react_coding_test/static/css/main.cab5f226.chunk.css",
-    "main.js": "/stampen/react_coding_test/static/js/main.1d326066.chunk.js",
-    "main.js.map": "/stampen/react_coding_test/static/js/main.1d326066.chunk.js.map",
-    "runtime-main.js": "/stampen/react_coding_test/static/js/runtime-main.59f0c1d3.js",
-    "runtime-main.js.map": "/stampen/react_coding_test/static/js/runtime-main.59f0c1d3.js.map",
-    "static/js/2.293dd497.chunk.js": "/stampen/react_coding_test/static/js/2.293dd497.chunk.js",
-    "static/js/2.293dd497.chunk.js.map": "/stampen/react_coding_test/static/js/2.293dd497.chunk.js.map",
-    "index.html": "/stampen/react_coding_test/index.html",
-    "precache-manifest.e73716276d4bf251b705f2a1cdf0da18.js": "/stampen/react_coding_test/precache-manifest.e73716276d4bf251b705f2a1cdf0da18.js",
-    "service-worker.js": "/stampen/react_coding_test/service-worker.js",
-    "static/css/main.cab5f226.chunk.css.map": "/stampen/react_coding_test/static/css/main.cab5f226.chunk.css.map",
-    "static/js/2.293dd497.chunk.js.LICENSE": "/stampen/react_coding_test/static/js/2.293dd497.chunk.js.LICENSE",
-    "static/media/SW.png": "/stampen/react_coding_test/static/media/SW.739e58c0.png"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.59f0c1d3.js",
-    "static/js/2.293dd497.chunk.js",
-    "static/css/main.cab5f226.chunk.css",
-    "static/js/main.1d326066.chunk.js"
-  ]
+  "main.css": "static/css/main.d003c116.css",
+  "main.css.map": "static/css/main.d003c116.css.map",
+  "main.js": "static/js/main.39c86bcf.js",
+  "main.js.map": "static/js/main.39c86bcf.js.map"
 }

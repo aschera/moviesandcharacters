@@ -1,0 +1,425 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ------------------------------------------------- */
+ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* -------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #404040;
+}
+h1 a:not(.link),
+h2 a:not(.link),
+h3 a:not(.link),
+h4 a:not(.link),
+h5 a:not(.link),
+h6 a:not(.link),
+.h1 a:not(.link),
+.h2 a:not(.link),
+.h3 a:not(.link),
+.h4 a:not(.link),
+.h5 a:not(.link),
+.h6 a:not(.link) {
+  color: inherit;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: #bfbfbf;
+}
+.dark-bg h1,
+.dark-bg h2,
+.dark-bg h3,
+.dark-bg h4,
+.dark-bg h5,
+.dark-bg h6,
+.dark-bg .h1,
+.dark-bg .h2,
+.dark-bg .h3,
+.dark-bg .h4,
+.dark-bg .h5,
+.dark-bg .h6 {
+  color: inherit;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  letter-spacing: 0.6px;
+}
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+  font-size: 65%;
+  letter-spacing: 0;
+}
+h1 .small-type,
+.h1 .small-type,
+h2 .small-type,
+.h2 .small-type,
+h3 .small-type,
+.h3 .small-type {
+  font-size: 65%;
+}
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 0;
+}
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+  font-size: 75%;
+  letter-spacing: 0;
+}
+h4 .small-type,
+.h4 .small-type,
+h5 .small-type,
+.h5 .small-type,
+h6 .small-type,
+.h6 .small-type {
+  font-size: 75%;
+}
+h1,
+.h1 {
+  font-size: 2.2em;
+  letter-spacing: 0.6px;
+}
+h2,
+.h2 {
+  font-size: 1.75em;
+  letter-spacing: 0.4px;
+}
+h3,
+.h3 {
+  font-size: 1.5em;
+  letter-spacing: 0.2px;
+}
+h4,
+.h4 {
+  font-size: 1.25em;
+}
+h5,
+.h5 {
+  font-size: 1.1em;
+}
+h6,
+.h6 {
+  font-size: 1em;
+}
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.12em;
+  word-spacing: 0.16em;
+  margin-bottom: 2em;
+}
+.UserInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 1em 0;
+  text-align: left;
+  transition: all 0.15s ease;
+}
+@media screen and (min-width: 767px) {
+  .UserInput {
+    flex-direction: row;
+  }
+}
+.FilterButton {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  margin-right: 2em;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.FilterButton label {
+  display: none;
+}
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #C8CCD4;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #C8CCD4;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #C8CCD4;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #C8CCD4;
+}
+select {
+  background-color: transparent;
+  background-image: url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A%2328405D%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E%0A);
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: auto 50%;
+  height: 3rem;
+  width: 6rem;
+  border: 1px solid #DFF0D8;
+  border-radius: 5px;
+  color: #28405D;
+  padding: 10px 30px 10px 10px;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+select::-ms-expand {
+  display: none;
+}
+@-moz-document url-prefix() {
+  select {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 0 #ffffff;
+  }
+}
+option:hover {
+  background-color: #DFF0D8;
+}
+select span {
+  border: 1px solid #DFF0D8;
+  border-radius: 5px;
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 2em;
+  padding: 15px 20px 10px;
+}
+/* ------------------------------------------------------------------------------- */
+/* search icon */
+.search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin: 0;
+  width: 100%;
+  transition: all 0.15s ease;
+}
+.search label {
+  display: none;
+}
+.search input {
+  height: 1.65rem;
+  border: 1px solid #DFF0D8;
+  border-radius: 5px;
+  color: #28405D;
+  padding: 10px 30px 10px 10px;
+  text-indent: 1.5rem !important;
+  background-color: transparent;
+  transition: all 0.15s ease;
+}
+.search input {
+  text-indent: 1.5rem;
+}
+.search .fa-search {
+  position: absolute;
+  top: -1.2em;
+  left: 0;
+  color: #C8CCD4;
+  margin-left: 1em;
+  margin-top: 2.2em;
+}

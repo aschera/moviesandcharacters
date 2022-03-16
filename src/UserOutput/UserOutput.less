@@ -1,0 +1,114 @@
+@import "../styles/base";
+@import "../styles/variables";
+@import "../styles/typography";
+
+.UserOutput {
+  display: flex;
+  flex-direction: column;
+  border: @border1;
+  border-radius: @border-radius;
+  border-collapse: collapse;
+  min-height: @content-min-height;
+  transition: @transition;
+}
+
+@media screen and (min-width: 830px) {
+  .UserOutput {
+    flex-direction: row;
+  }
+}
+
+.Output {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  transition: @transition;
+}
+
+@media screen and (min-width: 767px) {
+  .Output {
+    min-height: @column-lg-min-height;
+  }
+}
+
+.UserOutput li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: @content-padding*0.5 @content-padding*0.7;
+  cursor: pointer;
+  transition: @transition;
+}
+
+.UserOutput li:hover {
+  transition: @transition;
+  background-color: @hover-bg;
+  color: @hover-fg;
+}
+
+.UserOutput span {
+  flex: 1 1 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  line-height: @base-line-height;
+  height: @base-line-height;
+  text-align: left;
+}
+
+.UserOutput span:nth-child(2) {
+  width: 60%;
+  text-align: left;
+  overflow: hidden;
+  transition: @transition;
+}
+@media screen and (min-width: 767px) {
+  .UserOutput span:nth-child(2) {
+    min-width: @column-sm-min-width;
+  }
+}
+
+.UserOutput span:nth-child(3) {
+  padding-right: 0;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: left;
+  padding: @content-padding;
+  border-left: @border2;
+  border-collapse: collapse;
+  transition: @transition;
+}
+@media screen and (min-width: 767px) {
+  .description {
+    width: @column-lg--min-width;
+    border-left: @border1;
+  }
+}
+
+.description h2 {
+  margin: 0;
+  margin-bottom: @content-padding*0.5;
+}
+
+.loading-text {
+  width: @content-min-width*0.75;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: @color-black  ;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.12em;
+  word-spacing: 0.16em;
+}

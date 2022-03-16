@@ -1,0 +1,36 @@
+@import "styles/base";
+@import "styles/variables";
+@import "styles/typography";
+
+.App {
+  text-align: center;
+  max-width: @content-width;
+  min-width: @content-width*0.5;
+  margin: 0 auto;
+  padding: 0  @content-padding;
+  line-height: @base-line-height;
+  transition: all .15s ease;
+}
+
+@media screen and (min-width: 767px) {
+  .App {
+    padding: 0  @content-padding*0.5;
+  }
+}
+
+.title {
+    margin-top: @content-padding*2;
+}
+
+.about-details {
+  text-align: left;
+
+  em {
+    font-weight: bold;
+  }
+}
+
+.ActiveFilter span {
+  width: 100px;
+  min-height: 0;
+}
